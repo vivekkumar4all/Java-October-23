@@ -1,0 +1,11 @@
+Grading System: Write a Java program that takes a student's score as input and assigns a letter grade (A, B, C, D, or F) based on the score. Use conditional statements to determine the grade boundaries.
+
+Calculator: Implement a basic calculator in Java that takes two numbers and an operator (+, -, *, /) as input and performs the corresponding operation using conditional statements.
+
+Positive, Negative, or Zero: Write a Java program that determines whether a given number is positive, negative, or zero using conditional statements.
+
+Age Group Classifier: Develop a program that categorizes a person into different age groups (child, teenager, adult, senior) based on their age using conditional statements.
+child: age <12yr
+teenager : 13-19
+adult : 20 -45
+senior: 46-90
