@@ -1,0 +1,21 @@
+Tax Calculator: Create a program that calculates the income tax for a person based on their income. Consider different tax slabs and apply the appropriate tax rate using if-else statements.
+
+	If the salary is below 10k then no tax.
+	if between 10k-20k then 10% tax
+	if between 20k-30k then 15% tax
+	and if the basic is above 30k then flat 25% tax is applicable.
+
+
+Discount Calculator: Create a program that calculates the discount amount for a customer's purchase based on their total bill and a set of discount rules. Apply different discounts based on the purchase amount. Also print the bill recipt on the output screen.
+
+	1k-5k then 5% off
+	5k-10k then 10% off
+	10-20k- then 15% off
+	Anything above 20k then 25%off
+
+
+Create a menu-driven calculator program that allows the user to choose from a list of operations (addition, subtraction, multiplication, division) using a switch statement. Take two numbers as input and perform the selected operation.
+
+Season Determiner: Create a program that takes a month as input and uses a switch statement to determine the season (e.g., spring, summer, fall, or winter) associated with that month.
+
+Write a program that takes a number input from user (for ex: 1234) and then calculate its length using a loop. In this case when the user input is 1234 the lenght will be 4 as the number has 4 digits.
