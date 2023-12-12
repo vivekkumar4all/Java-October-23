@@ -6,10 +6,9 @@ public class Input3 {
         System.out.println("Enter your age");
         int age = sc.nextInt();
         System.out.println("This is your age :" + age);
-        sc.nextLine();
         System.out.println("Enter your name");
         String name = sc.nextLine();
         System.out.println("This is the name :" + name);
-        
+
     }
 }

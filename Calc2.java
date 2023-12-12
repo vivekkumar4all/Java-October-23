@@ -15,7 +15,7 @@ public class Calc2 {
     static int mul(int a, int b) {
         return a * b;
     }
-
+ 
     static int div(int a, int b) {
         return a / b;
     }
@@ -28,7 +28,7 @@ public class Calc2 {
         int num2 = scanner.nextInt();
         System.out.println("Enter 1 for add, 2 for sub, 3 for mul and 4 for div");
         // char choice = scanner.next().charAt(0);
-
+ 
         int choice = scanner.nextInt();
 
         int res = 0;
