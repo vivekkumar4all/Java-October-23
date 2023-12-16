@@ -1,0 +1,12 @@
+Digit sum.
+Count digits.
+First 50 even number sum.
+Find power (2^7 or 6^2)
+Find all prime till n (user input)
+Fibonacci Series
+*
+**
+***
+****
+*****
+******
