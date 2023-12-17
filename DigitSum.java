@@ -6,16 +6,16 @@ public class DigitSum {
 
     // static int sum = 0;
 
-    static int printSum(int n, int sum) {
+    static void printSum(int n, int sum) {
         if (n == 0) {
-            return 0;
+            return;
         }
         int lastDigit = n % 10;
         sum = sum + lastDigit;
         // n = n / 10;
         // printSum(n);
         printSum(n / 10, sum);
-        return sum;
+        // return sum;
     }
 
     public static void main(String[] args) {
