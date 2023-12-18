@@ -1,0 +1,15 @@
+Name Print 10 Times
+1 to 10, 10 to 1
+Even / Odd 1 to N
+Sum of N Natural Number
+Print Digit 
+Sum of Digit
+Prime Number
+ArmStrong Number
+Reverse a Number
+Palindrome Number
+Factorial 
+Power of a Number, Power of 2 ,3 Power of N.
+Count 0 in Digit
+Count Even/ Odd in Digit
+Find the Sum of Even and Odd Digit
