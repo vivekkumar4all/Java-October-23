@@ -27,6 +27,6 @@ public class SubSeq {
         // System.out.println(findSubSeq("ABC"));
 
         String name = "SHUBHAM";
-        System.out.println(name.substring(4));
+        System.out.println(name.substring(4 ));
     }
 }

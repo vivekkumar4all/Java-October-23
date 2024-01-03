@@ -1,23 +1,23 @@
+import java.util.Scanner;
+
 public class Temp {
-
-    static void add(int a, int b) {
-        int c = a + b;
-        System.out.println(c);
-    }
-
-    static int add2(int a, int b) {
-        int c = a + b;
-        return c;
-    }
-
-    public static void main(String[] args) {
-        add(1, 2);
-        int res = add2(1, 2);
-
-        if (res > 5) {
-            System.out.println("YAY!!");
-        } else {
-            System.out.println("MEH!!!");
+    static int powerValue = 1;
+    static void printPower( int num ,int power){
+        if(power==0){
+            return ;
         }
+        powerValue = powerValue * num;
+        printPower(num, power-1);
     }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the number");
+        int num = sc.nextInt();
+        System.out.println("Enter the power");
+        int power = sc.nextInt();
+        printPower(num, power);
+        System.out.println("The result is " +  powerValue );
+        sc.close();
+    }
+    
 }
