@@ -1,31 +1,48 @@
-import java.util.Scanner;
+package Array;
 
 public class Armstrong {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter a number");
-        int num = scanner.nextInt();
-        int numCopy = num;
-        int numCopy2 = num;
-        int length = 0;
-        int sum = 0;
+
+    // this is solved
+    static int findLenght(int num) {
+        int count = 0;
         while (num != 0) {
             num = num / 10;
-            length++;
+            count++;
         }
+        return count;
+    }
 
-        while (numCopy != 0) {
-            int singleDigit = numCopy % 10;
-            int powerValue = (int) Math.pow(singleDigit, length);
-            sum = sum + powerValue;
-            numCopy = numCopy / 10;
+    // this is solved
+    static int findPower(int baseNumber, int exponent) {
+        int powerValue = 1;
+        for (int i = 1; i <= exponent; i++) {
+            powerValue = powerValue * baseNumber;
         }
+        return powerValue;
+    }
 
-        if (sum == numCopy2) {
-            System.out.println("Yes the number is Armstrong");
-        } else {
-            System.out.println("The number is not Armstrong");
+    static int isArmstrong(int num) {
+        int numLen = findLenght(num);
+        int sum = 0;
+        while (num != 0) {
+            int lastDigit = num % 10;
+            sum = sum + findPower(lastDigit, numLen);
+            num = num / 10;
         }
-        scanner.close();
+        return sum;
+    }
+
+    public static void main(String[] args) {
+        int arr[] = { 115, 45, 153, 897, 370, 371, 350, 407, 4545, 1634 };
+
+        for (int i = 0; i < arr.length; i++) {
+            int res = isArmstrong(arr[i]);
+
+            if (res == arr[i]) {
+                System.out.println(arr[i] + " is Armstrong");
+            } else {
+                System.out.println(arr[i] + " is Not Armstrong");
+            }
+        }
     }
 }
